@@ -28,4 +28,4 @@ RUN npm install express && npm install formidable
 
 RUN mkdir page && cd page && mkdir upload && cd ..
 
-RUN node server.js
+RUN node /home/work/recognition/server.js
