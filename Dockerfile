@@ -1,8 +1,5 @@
 FROM ubuntu:18.04
 
-RUN apt update && apt install -y software-properties-common && add-apt-repository -y ppa:alex-p/tesseract-ocr
-RUN apt update && apt install -y tesseract-ocr-all 
-
 RUN mkdir /home/work
 WORKDIR /home/work
 
