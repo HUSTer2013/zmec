@@ -19,9 +19,7 @@ RUN npm install http-server -g
 
 RUN git clone https://github.com/HUSTer2013/recognition.git
 
-RUN cd recognition
-
-RUN npm install express && npm install formidable
+RUN cd recognition && npm install express -g && npm install formidable -g
 
 RUN mkdir page && cd page && mkdir upload && cd ..
 
